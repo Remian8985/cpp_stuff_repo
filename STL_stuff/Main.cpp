@@ -1,8 +1,8 @@
 /* 
- * File:   Main.cpp
+ * File:   main.cpp
  * Author: ameemtas
  *
- * Created on January 12, 2015, 2:27 PM
+ * Created on January 12, 2015, 3:43 PM
  */
 
 #include <cstdlib>
@@ -20,11 +20,9 @@ int add_crap(int a, int b){
 
 int main(int argc, char** argv) {
 
-    
-    int x = 23, y =44, z;
-    z = add_crap(x,y);
-	cout << "The sum is : " << z << endl;
-    
-    return 0;
+	int x = 22, y = 33, z;
+	z = add_crap(x,y);
+	cout << "the sum is : " << z << endl;
+	return 0;
 }
 

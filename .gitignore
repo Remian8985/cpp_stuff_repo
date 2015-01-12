@@ -1,0 +1,12 @@
+/STL_stuff/build/
+/STL_stuff/dist/
+
+# Ignore everything
+*
+# Don't ignore directories, so we can recurse into them
+!*/
+# Don't ignore .gitignore and *.foo files
+!.gitignore
+!*.cpp
+!*.h
+!Makefile
