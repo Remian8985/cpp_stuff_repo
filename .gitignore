@@ -10,3 +10,6 @@
 !*.cpp
 !*.h
 !Makefile
+!makefile
+!*.valgrind
+
