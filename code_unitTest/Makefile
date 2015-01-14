@@ -102,7 +102,9 @@ $(EXE): $(EXE_OBJ) $(EXE_MAIN_OBJ)
 #Link test executable
 # Note that we must remove main.o from $(EXE_OBJ) so we use the main() defined under tests
 $(TEST_EXE): $(TEST_OBJ) $(filter-out %/main.o,$(EXE_OBJ))
-	$(CXX) $(CFLAGS) $^ $(LFLAGS) -lunittest++ -o $@
+	$(CXX) $(CFLAGS) $^ $(LFLAGS) -lUnitTest++ -o $@
+#WARNING: the original for the above line is $(CXX) $(CFLAGS) $^ $(LFLAGS) -lunittest++ -o $@
+
 
 #Note: % matches recursively between prefix and suffix
 #      so %.cpp would match both src/a/a.cpp

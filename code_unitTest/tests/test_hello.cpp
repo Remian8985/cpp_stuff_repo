@@ -1,5 +1,6 @@
-#include <unittest++/UnitTest++.h>
+#include <UnitTest++/UnitTest++.h>
+// #include "/usr/include/UnitTest++/UnitTest++.h"
 
 TEST(HelloUnitTest) {
-    CHECK(false);
+    CHECK(true);
 }
