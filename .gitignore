@@ -8,8 +8,10 @@
 # Don't ignore .gitignore and *.foo files
 !.gitignore
 !*.cpp
+!.*cc
 !*.h
 !Makefile
 !makefile
 !*.valgrind
 
+/code_unitTest/build/
